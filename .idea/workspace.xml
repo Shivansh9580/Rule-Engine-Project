@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4f16f7a-23d7-4d04-a35b-d09d8d449bd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RuleEngineProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rule_Engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="a4f16f7a-23d7-4d04-a35b-d09d8d449bd5" name="Changes" comment="This is Rule Engine. Which compares the user Data with the defined rule and give the output accordingingly. &#10;If the user data follows the rule, it  gives True else  it gives false.">
+      <change afterPath="$PROJECT_DIR$/Frontend/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rule_Engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rule_Engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,6 +39,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.Rule_Engine.executor": "Run",
     "Python.RunEngine.executor": "Run",
     "Python.app.executor": "Run",
     "Python.main.executor": "Run",
@@ -123,6 +124,27 @@
       <option name="presentableId" value="Default" />
       <updated>1729157909306</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is Rule Engine. Which compares the user Data with the defined rule and give the output accordingingly. &#10;If the user data follows the rule, it  gives True else  it gives false.">
+      <option name="closed" value="true" />
+      <created>1729339792054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729339792054</updated>
+    </task>
+    <task id="LOCAL-00002" summary="This is Rule Engine. Which compares the user Data with the defined rule and give the output accordingingly. &#10;If the user data follows the rule, it  gives True else  it gives false.">
+      <option name="closed" value="true" />
+      <created>1729339842141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729339842141</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is Rule Engine. Which compares the user Data with the defined rule and give the output accordingingly. &#10;If the user data follows the rule, it  gives True else  it gives false." />
+    <option name="LAST_COMMIT_MESSAGE" value="This is Rule Engine. Which compares the user Data with the defined rule and give the output accordingingly. &#10;If the user data follows the rule, it  gives True else  it gives false." />
   </component>
 </project>

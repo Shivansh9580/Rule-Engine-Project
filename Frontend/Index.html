@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rule Engine App</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Welcome to the Rule Engine App!</h1>
+
+    <!-- Navigation for toggling sections -->
+    <nav>
+        <button onclick="showSection('create')">Create Rule</button>
+        <button onclick="showSection('combine')">Combine Rules</button>
+        <button onclick="showSection('evaluate')">Evaluate Rule</button>
+    </nav>
+
+    <!-- Create Rule Section -->
+    <div id="createRuleSection" style="display: none;">
+        <h2>Create a New Rule</h2>
+        <form id="createRuleForm">
+            <label for="rule1">Enter Rule:</label>
+            <input type="text" id="createRule" name="rule1" required>
+            <button type="button" id="createBtn">Create Rule</button>
+
+        </form>
+        <div id="createResult"></div>
+    </div>
+
+    <!-- Combine Rules Section -->
+    <div id="combineRuleSection" style="display: none;">
+        <h2>Combine Rules</h2>
+        <form id="combineRuleForm">
+            <label for="rule1">Enter Rule 1:</label>
+            <input type="text" id="combineRule1" name="rule1" required>
+
+            <label for="rule2">Enter Rule 2:</label>
+            <input type="text" id="combineRule2" name="rule2">
+            <button type="button" id="combineBtn">Combine Rules</button>
+        </form>
+        <div id="combineResult"></div>
+    </div>
+
+    <!-- Evaluate Rule Section -->
+    <div id="evaluateRuleSection" style="display: none;">
+        <h2>Evaluate Rule</h2>
+        <form id="evaluateRuleForm">
+            <label for="rule1">Enter Rule to Evaluate:</label>
+            <input type="text" id="evaluateRule" name="rule1" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" name="salary" required>
+
+            <label for="experience">Experience:</label>
+            <input type="number" id="experience" name="experience" min="0" required>
+
+
+            <button type="button" id="evaluateBtn">Evaluate Rule</button>
+            <!-- Section to display stored rules -->
+            <!-- Button to fetch and display stored rules -->
+            <button id="fetchRulesBtn">Show Stored Rules</button>
+
+            <!-- Section to display the stored rules -->
+            <ul id="storedRules"></ul>
+
+        </form>
+        <div id="evaluateResult"></div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>

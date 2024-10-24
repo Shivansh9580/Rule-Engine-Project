@@ -83,6 +83,7 @@ def combine_rules(rules):
         right = ast_list.pop(0)
         combined = Node("operator", left=left, right=right, value="OR")
         ast_list.insert(0, combined)
+    print("Combined AST:", ast_list[0])  # Debug print
     return ast_list[0]
 
 
