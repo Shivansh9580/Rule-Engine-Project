@@ -36,6 +36,10 @@ if %errorlevel% neq 0 (
     pause
     exit /b %errorlevel%
 )
+REM Step 4: Open the Web Application in the Default Browser
+echo Opening the Web Application...
+start "" "C:\Users\shiva\PycharmProjects\RuleEngineProject\Frontend\index.html"
+
 
 echo ==========================
 echo Project setup complete!
