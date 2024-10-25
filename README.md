@@ -27,17 +27,29 @@ Metadata: Information about the rule such as creation date and any relevant desc
 Example document structure:
 
 {
+
     "rule_id": "12345",
+    
     "ast": {
+    
         "type": "operator",
+        
         "operator": "AND",
+        
         "left": { "type": "operand", "attribute": "age", "operator": ">=", "value": 18 },
+        
         "right": { "type": "operand", "attribute": "income", "operator": "<", "value": 50000 }
+        
     },
+    
     "metadata": {
+    
         "created_at": "2023-10-25",
+        
         "description": "Rule for eligibility based on age and income"
+        
     }
+    
 }
 
 ## Prerequisites
