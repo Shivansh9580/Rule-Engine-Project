@@ -1,4 +1,4 @@
-### Rule Engine Project
+# Rule Engine Project
 
 ## Objective
 This project is a simple 3-tier rule engine application built to determine user eligibility based on attributes like age, department, income, spend, and experience. The system uses an Abstract Syntax Tree (AST) to represent conditional rules and enables the dynamic creation, combination, and modification of rules through a straightforward interface.
@@ -48,6 +48,7 @@ Flask & Required Packages - Install using requirements.txt.
 
 
 ## Setup Instructions
+
 Clone the Repository
 
 ```bash
@@ -73,13 +74,13 @@ Launch the Web Application Double-click index.html or access http://127.0.0.1:50
 
 ## Usage
 
-Creating a Rule<br>
+### Creating a Rule<br>
 Use the Create Rule button to define a new rule by inputting conditions and saving them to the database.
 
-Combining Rules<br>
+### Combining Rules<br>
 The Combine Rule function allows combining two rules with logical operators (AND/OR), resulting in a new composite rule.
 
-Evaluating a Rule<br>
+### Evaluating a Rule<br>
 The Evaluate Rule button allows you to test defined rules with sample user data to check if they meet eligibility criteria.
 
 ## Additional Functionalities
